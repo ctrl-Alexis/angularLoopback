@@ -1,0 +1,33 @@
+
+<span>
+    <div>
+
+        <p>historia: {{historia}}</p>
+        <P>en vivo: {{N0}}</P>
+        
+        
+    </div>
+    <div>
+    <button (click)="main('1',false)">1</button>
+    <button (click)="main('2',false)">2</button>
+    <button (click)="main('3',false)">3</button>
+    <button (click)="main('4',false)">4</button>
+    <button (click)="main('5',false)">5</button>
+    <button (click)="main('6',false)">6</button>
+    <button (click)="main('7',false)">7</button>
+    <button (click)="main('8',false)">8</button>
+    <button (click)="main('9',false)">9</button>
+    <button (click)="main('<',true)"><-</button>
+    <button (click)="main('0',false)">0</button>
+    <button (click)="main('=',true)">=</button>
+    </div>
+
+    <div>
+        
+        <button (click)="main('/',true)">/</button>
+        <button (click)="main('*',true)">x</button>
+        <button (click)="main('-',true)">-</button>
+        <button (click)="main('+',true)">+</button>
+    </div>
+    
+</span>
